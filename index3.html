@@ -1,0 +1,50 @@
+<html>
+   <head>
+    <link rel="stylesheet" href="./style2.css">
+
+    <script src="./Calculadora.js"></script>
+   </head>
+
+   <body>
+    <div class="nav-root">
+        <div class="logo center">Logo</div>
+        <div class="nav-login center">Login</div>
+        <div class="nav-menu center">Menu</div>
+        <div class="nav-settings center">Settings</div>
+        <div class="nav-exit center">Exit</div>
+        
+    </div>
+    <div class="container">
+       
+        <div class="calculadora">CALCULADORA</div>
+        
+        <div class="app-root">
+          <input type="text" class="input" id="display" value=""/>
+          <div class="grid">
+              <input type="button" class="button-root operator span-2" value="C" onclick="clearDisplay()"/>
+              <input type="button" class="button-root operator" value="DEL" onclick="del()"/>
+              <input type="button" class="button-root operator" value="/" onclick="addValueDisplay('/')"/>
+              <input type="button" class="button-root" value="7" onclick="addValueDisplay('7')"/>
+              <input type="button" class="button-root" value="8" onclick="addValueDisplay('8')"/>
+              <input type="button" class="button-root" value="9" onclick="addValueDisplay('9')"/>
+              <input type="button" class="button-root operator" value="x" onclick="addValueDisplay('*')"/>
+              <input type="button" class="button-root" value="4" onclick="addValueDisplay('4')"/>
+              <input type="button" class="button-root" value="5" onclick="addValueDisplay('5')"/>
+              <input type="button" class="button-root" value="6" onclick="addValueDisplay('6')"/>
+              <input type="button" class="button-root operator" value="-" onclick="addValueDisplay('-')"/>
+              <input type="button" class="button-root" value="1" onclick="addValueDisplay('1')"/>
+              <input type="button" class="button-root" value="2" onclick="addValueDisplay('2')"/>
+              <input type="button" class="button-root" value="3" onclick="addValueDisplay('3')"/>
+              <input type="button" class="button-root operator" value="+" onclick="addValueDisplay('+')"/>
+              <input type="button" class="button-root span-3" value="0" onclick="addValueDisplay('0')"/>
+              <input type="button" class="button-root operator" value="=" onclick="solve()"/>
+
+
+          </div>
+
+        </div>
+
+    </div>
+      
+   </body>
+</html> 

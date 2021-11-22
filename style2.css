@@ -1,0 +1,118 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 0;
+  }
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #264653;
+}
+.app-root {
+    max-width: 320px;
+    height: 425px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.span-2 {
+    grid-column: span 2;
+  }
+  .span-3 {
+    grid-column: span 3;
+  }
+  .button-root {
+    font-size: 1em;
+    height: 65px;
+    cursor: pointer;
+    background-color: #60a8a0;
+    color: white;
+    border: 0;
+    font-family: "Space Mono", serif;
+  }
+  .button-root:hover {
+    background: #3c777081;
+  }
+  .operator {
+    background-color: #f5b885;
+    color: black;
+  }
+  
+  .operator:hover {
+    background-color: #e4a069b7;
+  }
+  
+  .disabled {
+    background-color: darkslategray;
+    cursor: not-allowed;
+  }
+  
+  .disabled:hover {
+    background-color: darkslategrey;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .input {
+    background: #ecd496;
+    color: black;
+    font-size: 2em;
+    border: 0;
+    padding: 0.3em;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    font-family: "Space Mono", serif;
+    caret-color: transparent;
+    cursor: default;
+  }
+  
+  .display-root {
+    background: #d4cbb3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 82px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .arrow {
+    border: none;
+    background-color: transparent;
+    font-size: 28px;
+    cursor: pointer;
+    width: 50px;
+    height: 32px;
+  }
+  
+  .arrow:focus {
+    outline: none;
+  }
+  
+  .nav-root {
+    background-color: blanchedalmond;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Segoe UI", sans-serif;
+    cursor: pointer;
+    display: flexbox;
+
+  }
+
+  .calculadora {
+    font-size: 40px;
+    height: 600px;
+    font-family: "Segoe UI", sans-serif;
+    margin-right: -310px;
+    color:aliceblue;
+    cursor: pointer;
+  }
